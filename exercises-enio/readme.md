@@ -18,4 +18,21 @@
 
 ---
 
+# Simple Loan Calculator
 
+**File name**: `1_simpleLoanCalculator.go`
+**Date**: `04.04.2025`
+## Requirements:
+
+Write a Go program that calculates the monthly payment for a loan based on the following formula:
+\[
+M = P \times \frac{r(1+r)^n}{(1+r)^n - 1}
+\]
+
+Where:
+- **M** = Monthly payment
+- **P** = Principal loan amount
+- **r** = Monthly interest rate (annual interest rate divided by 12)
+- **n** = Number of payments (loan term in years multiplied by 12)
+
+---
