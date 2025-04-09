@@ -14,11 +14,11 @@ func main(){
 
 	fmt.Println("Enter the length in meter:")
 	fmt.Scan(&input_in_meter)
-	fmt.Printf("\n%.2e mm", input_in_meter / mm_cr)
-	fmt.Printf("\n%8.2f km", input_in_meter / km_cr)
-	fmt.Printf("\n%.2e in", input_in_meter / inch_cr)
-	fmt.Printf("\n%8.2f Sea Miles", input_in_meter / seamiles_cr)
-	fmt.Printf("\n%.2e Light Years:", input_in_meter / lightyear_cr)
+	fmt.Printf("%.3e mm\n", input_in_meter / mm_cr)
+	fmt.Printf("%.3f km\n", input_in_meter / km_cr)
+	fmt.Printf("%.3e in\n", input_in_meter / inch_cr)
+	fmt.Printf("%.3f Sea Miles\n", input_in_meter / seamiles_cr)
+	fmt.Printf("%.3e Light Years\n", input_in_meter / lightyear_cr)
 
 
 
