@@ -20,9 +20,10 @@ func main() {
 	
 
 	minute_degree := 360.0 * (float64(minute)/60.0)
-	hour_degree := 360.0 * (float64(hour) / 12) + 30.0 * (float64(minute)/60.0)
+	hour_degree := 360.0 * (float64(hour_12h) / 12) + 30.0 * (float64(minute)/60.0)
 
-	fmt.Printf("%d and %d\n", hour_12h, minute)
-	fmt.Printf("%.2f and %.2f", hour_degree, minute_degree)
+	fmt.Printf("Time: %02d:%02d\n", hour, minute)
+	fmt.Printf("Angulo del horario: %3.2f°\n", hour_degree)
+	fmt.Printf("Angulo del minutero: %3.2f°\n", minute_degree)
 
 }
