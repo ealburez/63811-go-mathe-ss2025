@@ -1,3 +1,7 @@
+# Repository with questions about go
+
+[go-excersises](https://github.com/bregman-arie/go-exercises/blob/main/exercises/variables/exercise.md)
+
 # Temperature Converter
 
 **File name**: `0_temperatureConverter`
