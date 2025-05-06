@@ -1,3 +1,4 @@
+// From: https://github.com/bregman-arie/go-exercises/blob/main/exercises/packages/exercise.md
 package main
 
 import(
